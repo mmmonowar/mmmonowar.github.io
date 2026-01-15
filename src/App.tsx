@@ -309,8 +309,8 @@ const Block = ({ block }: { block: BlockData }) => {
 
 
 // Profile data
-const profile = {"name":"Muhammad 'Mustafa' Monowar","bio":"💼 Supporting SEY Entrepreneurs @ INTxK\n🚀 The Polymod Framework","avatarUrl":"/assets/avatar.png","theme":"light","primaryColor":"blue","showBranding":false,"analytics":{"enabled":false,"supabaseUrl":""},"socialAccounts":[],"showSocialInHeader":false,"openGraph":{"title":"Muhammad Mustafa Monowar"},"avatarStyle":{"shape":"circle","shadow":true,"border":false,"borderColor":"#ffffff","borderWidth":4}}
-const blocks: BlockData[] = [{"id":"bento_1768485684035_k13k3oov9","type":"LINK","title":"The Polymod Framework","subtext":"Learn more","content":"https://thepolymodframework.carrd.co","colSpan":5,"rowSpan":5,"gridColumn":1,"gridRow":1,"color":"bg-gray-900","textColor":"text-white","imageUrl":"/assets/block-bento_1768485684035_k13k3oov9.png"}]
+const profile = {"name":"Muhammad Mustafa Monowar","bio":"💼 Productivity Consultant, INTxK\n🙏 Supporting SEY Entrepreneurs\n🚀 The Polymod Framework","avatarUrl":"/assets/avatar.png","theme":"light","primaryColor":"blue","showBranding":false,"analytics":{"enabled":false,"supabaseUrl":""},"socialAccounts":[],"showSocialInHeader":false,"openGraph":{"title":"Muhammad Mustafa Monowar"},"avatarStyle":{"shape":"circle","shadow":true,"border":false,"borderColor":"#ffffff","borderWidth":4},"backgroundColor":"#ffffff"}
+const blocks: BlockData[] = [{"id":"bento_1768485684035_k13k3oov9","type":"LINK","title":"The Polymod Framework","subtext":"Website","content":"https://thepolymodframework.carrd.co","colSpan":5,"rowSpan":7,"gridColumn":1,"gridRow":1,"color":"bg-gray-900","textColor":"text-white","imageUrl":"/assets/block-bento_1768485684035_k13k3oov9.png"},{"id":"y19w8mkbv","type":"SOCIAL","title":"LinkedIn","content":"https://www.linkedin.com/in/mmmonowar/","colSpan":2,"rowSpan":3,"color":"bg-blue-500","textColor":"text-white","gridColumn":7,"gridRow":1,"socialPlatform":"linkedin","socialHandle":"mmmonowar","subtext":"mmmonowar"},{"id":"1an7x9smr","type":"SOCIAL","title":"Book a call with me","content":"https://calendar.app.google/mv4D26enmL4D4TpR6","colSpan":2,"rowSpan":3,"color":"bg-white","gridColumn":7,"gridRow":5,"socialPlatform":"custom","socialHandle":"https://calendar.app.google/mv4D26enmL4D4TpR6","subtext":"https://calendar.app.google/mv4D26enmL4D4TpR6"},{"id":"1bdhgc026","type":"LINK","title":"INTxK","content":"https://intxk.carrd.co/","colSpan":7,"rowSpan":6,"color":"bg-white","textColor":"text-gray-900","gridColumn":3,"gridRow":9,"subtext":"Website","imageUrl":"/assets/block-1bdhgc026.png"}]
 
 // Analytics hook (uses Edge Function - no API keys exposed)
 const useAnalytics = () => {
@@ -390,7 +390,7 @@ export default function App() {
   useAnalytics()
 
   const avatarStyle = { borderRadius: '9999px', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.15)', border: 'none' }
-  const bgStyle: React.CSSProperties = { backgroundColor: '#f8fafc' }
+  const bgStyle: React.CSSProperties = { backgroundColor: '#ffffff' }
 
   return (
     <div className="min-h-screen font-sans" style={bgStyle}>

@@ -1,4 +1,4 @@
-# Deploy Muhammad 'Mustafa' Monowar
+# Deploy Muhammad Mustafa Monowar
 
 This is a React/Vite/Tailwind project exported from OpenBento.
 
